@@ -12,7 +12,7 @@ namespace AvaloniaApplication1
         {
             InitializeComponent();
         }
-        private async void MyButton_Click(object sender, RoutedEventArgs e)
+        public async void MyButton_Click(object sender, RoutedEventArgs e)
         {
             var textBox = this.FindControl<TextBox>("MyTextBox");
             if (textBox != null)
